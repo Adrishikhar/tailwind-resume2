@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.card {
+		@apply flex gap-10 mt-8 p-6 w-11/12 bg-gradient-to-r from-blue-200 to-green-100 rounded-lg shadow-lg shadow-indigo-300;
+	}
+
+	.rotated-heading {
+		@apply my-2 px-2 [writing-mode:vertical-lr] text-xl font-semibold text-center border-r-2 border-white font-poppins;
+	}
+}
