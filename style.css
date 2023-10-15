@@ -10,6 +10,6 @@
 	}
 
 	.rotated-heading {
-		@apply my-0.5 px-1 [writing-mode:vertical-lr] text-lg font-semibold text-center border-r-2 border-white font-poppins sm:my-1 sm:px-1 lg:my-2 lg:px-2;
+		@apply my-0.5 px-1 [writing-mode:vertical-lr] text-lg font-semibold text-center border-r-2 border-white font-poppins sm:my-1 sm:px-1 lg:my-2 lg:px-2 md:text-xl;
 	}
 }
